@@ -3,7 +3,7 @@
 use reflector_oracle::Client as ReflectorClient;
 use soroban_sdk::{contract, contractimpl, Address, Env};
 
-mod reflector_oracle;
+pub mod reflector_oracle;
 
 mod test;
 
