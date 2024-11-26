@@ -1,0 +1,10 @@
+.DS_Store
+
+# Rust's output directory
+target
+
+# Local settings
+.soroban
+.stellar
+
+snapshot.json
