@@ -7,4 +7,5 @@ target
 .soroban
 .stellar
 
+test_snapshots
 snapshot.json

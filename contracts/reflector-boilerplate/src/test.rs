@@ -15,7 +15,7 @@ fn test() {
         capture_snapshot_at_drop: false,
     });
 
-    let contract_id = env.register_contract(None, Contract);
+    let contract_id = env.register(Contract, ());
     let client = ContractClient::new(&env, &contract_id);
 
     let reflector_address = Address::from_string(&String::from_str(
