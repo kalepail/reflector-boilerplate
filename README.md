@@ -7,6 +7,10 @@ make snapshot
 ```
 
 ```bash
+make bindings
+```
+
+```bash
 cargo test -- --nocapture
 ```
 
